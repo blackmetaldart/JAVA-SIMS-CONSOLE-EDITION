@@ -2,7 +2,7 @@ package HouseholdApp;
 
 abstract class Pet implements PetInterface {
 
-    String name;
+    //AN ABSTRACT CLASS TO PROVIDE THE METHODS FOR THE PET
     public void feedPet(){
         System.out.println("");
     }

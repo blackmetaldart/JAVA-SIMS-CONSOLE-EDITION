@@ -2,6 +2,7 @@ package HouseholdApp;
 
 public class Cat extends Pet {
 
+    //OVERRIDING THE METHODS FROM THE ABSTRACT CLASS TO DEFINE THEM
     @Override
     public void feedPet(){
         System.out.println("The cat just ate its food." );

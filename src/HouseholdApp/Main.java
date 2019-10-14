@@ -3,16 +3,18 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Welcome to Sims : Console Edition!");
         System.out.println("We're going to create two households.");
         Scanner userInput = new Scanner(System.in);
 
-
+        //THESE ARE THE ATTRIBUTES USED IN THE APPLICATION
         int income = 0;
         String name;
         Dog dog = new Dog();
         Cat cat = new Cat();
 
+        //THIS ARRAY LIST INSTANTIATES THE HOUSEHOLDS AND ADDS THEM TO THE PLAZA
         ArrayList<Household> Plaza = new ArrayList<>();
         Household house1 = new Household(income, dog);
         Household house2 = new Household(income, cat);
@@ -21,7 +23,7 @@ public class Main {
 
 
 
-
+        //THIS IS AN ENHANCED FOR LOOP TO RUN THROUGH THE HOUSEHOLDS
         for (Household counter: Plaza) {
             System.out.println("Please enter the income for the household.");
             counter.income = userInput.nextInt();
