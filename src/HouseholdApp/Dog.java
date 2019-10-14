@@ -5,16 +5,16 @@ public class Dog extends Pet {
 
     @Override
     public void feedPet(){
-        System.out.println("Dog just ate its food." );
+        System.out.println("The dog just ate its food." );
     }
 
     @Override
     public void groomPet(){
-        System.out.println("Dog so clean now!");
+        System.out.println("The dog is so clean now!");
     }
 
     @Override
     public void playWithPet(){
-        System.out.println("Dog just played fetch.");
+        System.out.println("The dog just played fetch.");
     }
 }

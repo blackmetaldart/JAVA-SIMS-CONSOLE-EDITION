@@ -10,12 +10,12 @@ public class Main {
 
         int income = 0;
         String name;
-        Dog Sam = new Dog();
-        Cat Frank = new Cat();
+        Dog dog = new Dog();
+        Cat cat = new Cat();
 
         ArrayList<Household> Plaza = new ArrayList<>();
-        Household house1 = new Household(income, Sam);
-        Household house2 = new Household(income, Frank);
+        Household house1 = new Household(income, dog);
+        Household house2 = new Household(income, cat);
         Plaza.add(house1);
         Plaza.add(house2);
 
